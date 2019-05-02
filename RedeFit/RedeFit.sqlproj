@@ -69,6 +69,9 @@
     <Build Include="Serie.sql" />
     <Build Include="Turmas.sql" />
     <Build Include="AlunoTreino.sql" />
+    <Build Include="Matricula.sql" />
+    <Build Include="Agenda.sql" />
+    <Build Include="Academia.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="RedeFit.refactorlog" />

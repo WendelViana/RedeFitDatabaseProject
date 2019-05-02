@@ -49,4 +49,39 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="QtdSerie" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="ef0728ac-8676-4b82-83e7-f6f209c9fbd7" ChangeDateTime="05/01/2019 22:58:59">
+    <Property Name="ElementName" Value="[dbo].[Matricula].[fk_id_aluno]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Matricula]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DataMatricula" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0db9a69d-5ccf-4fc6-9ef7-9b4092747520" ChangeDateTime="05/01/2019 23:20:13">
+    <Property Name="ElementName" Value="[dbo].[Agenda].[FK_id_professor]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Agenda]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FK_id_personal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4687fe89-d4bd-4727-bf5a-314f9635ba96" ChangeDateTime="05/01/2019 23:20:22">
+    <Property Name="ElementName" Value="[dbo].[FK_Agenda_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Agenda]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Agenda_ToPersonal]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="52838bf5-ff47-4bb1-b0e7-358c73780e0f" ChangeDateTime="05/01/2019 23:29:12">
+    <Property Name="ElementName" Value="[dbo].[FK_Agenda_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Agenda]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Agenda_ToTurma]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4f0cdd10-d357-499a-b307-b4cb5beb22ab" ChangeDateTime="05/01/2019 23:30:58">
+    <Property Name="ElementName" Value="[dbo].[Academia].[Nome]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Academia]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RazaoSocial" />
+  </Operation>
 </Operations>
